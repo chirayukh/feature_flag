@@ -1,2 +1,21 @@
 # feature_flag
-feature_flag example for Dataminr
+Feature Flag example for Dataminr
+![Feature Flag](https://user-images.githubusercontent.com/48253088/153437745-88245350-6b4c-47e1-bc47-cc18abf3d054.PNG)
+
+# Features
+- UI written in React JS
+- Backend written in NodeJS/Express
+- Relational data storage with PostgreSQL
+
+# Installation
+- Install PostgreSQL and create a db named postgres and create tables with queries in Back-End\feature_flag.sql
+- Clone this repository https://github.com/chirayukh/feature_flag.git
+- Run npm install in both Back-End and Front-End to install dependencies
+- cd into Back-End and run command "node index.js" or "npx nodemon index.js" to spin Backend API
+- cd into Front-End and run command "npm start" respectively to spin Frotend
+- Frontend should be running on http://localhost:3000 and Backend API on http://localhost:5000
+
+# Note
+- You can configure Postgres DB connection in Back-End\dbConnection.js.
+- If the Back-end service is not up and running and if you have not created the tables in db. The UI won't work properly.
+- It's not perfectly created.
